@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Mimi";
+    src: url("../fonts/Fresh_Fruit.otf");
+}
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body{
+    height: 100vh;
+    background-image: url("../imgs/Céu.gif");
+}
