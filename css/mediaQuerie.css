@@ -1,0 +1,48 @@
+@media (max-width: 450px) {
+
+    ul {
+        & li {
+            color: white;
+            font-family: "Mimi";
+
+            margin: 0 7.5px;
+
+            & a {
+                color: white;
+                text-decoration: none;
+                font-size: 24px;
+            }
+        }
+    }
+
+    section#welcome {
+        width: 100%;
+        top: 15%;
+
+        & h1 {
+            font-size: 36px;
+        }
+
+    }
+
+    section#days {
+        width: 90%;
+        top: 15%;
+
+        & h1 {
+            font-size: 36px;
+        }
+    }
+
+    section#letter {
+        & #msg {
+            position: absolute;
+            text-align: center;
+            width: 260px;
+            top: calc(50% - 95px);
+            left: calc(50% - 130px);
+
+            font-size: 24px;
+        }
+    }
+}

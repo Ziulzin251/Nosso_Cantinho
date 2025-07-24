@@ -24,17 +24,3 @@ img {
 #msg {
     color: palevioletred;
 }
-
-@media (max-width: 450px) {
-
-    h1 {
-        position: absolute;
-        text-align: center;
-        width: 260px;
-        top: calc(50% - 95px);
-        left: calc(50% - 130px);
-
-        font-size: 24px;
-    }
-
-}
