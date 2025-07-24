@@ -28,6 +28,7 @@ ul {
         & a {
             color: white;
             text-decoration: none;
+            font-size: 32px;
         }
     }
 
@@ -36,7 +37,8 @@ ul {
     }
 }
 
-section#welcome, section#days{
+section#welcome,
+section#days {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -67,10 +69,26 @@ iframe {
 
 @media (max-width: 450px) {
 
-    h1 {
-        font-size: 36px;
+    li {
+        color: white;
+        font-size: 32px;
+        font-family: "Mimi";
+
+        margin: 0 5px;
+
+        & a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
     }
 
+    section#welcome {
+        & h1 {
+            font-size: 36px;
+        }
+
+    }
 }
 
 /* Section Dias */
