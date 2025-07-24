@@ -5,7 +5,7 @@
             color: white;
             font-family: "Mimi";
 
-            margin: 0 7.5px;
+            margin: 0 10px;
 
             & a {
                 color: white;
@@ -26,11 +26,11 @@
     }
 
     section#days {
-        width: 90%;
+        width: 95%;
         top: 15%;
 
         & h1 {
-            font-size: 36px;
+            font-size: 38px;
         }
     }
 
