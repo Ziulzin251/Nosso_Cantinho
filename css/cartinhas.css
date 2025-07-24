@@ -2,3 +2,30 @@
     font-family: "Mimi";
     src: url("../fonts/Fresh_Fruit.otf");
 }
+
+#carta {
+    position: relative;
+    background-image: url("../imgs/Carta.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-width: 300px;
+    max-width: 700px;
+
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    top: calc(50% - 165px);
+    left: calc(50% - 200px);
+}
+
+img {
+    margin: 0 5%;
+    width: 90%;
+    height: 90%;
+}
