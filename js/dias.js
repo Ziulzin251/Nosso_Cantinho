@@ -1,5 +1,5 @@
 // Data inicial (ano, mês [0-11], dia, hora, min, seg)
-const dataInicial = new Date(2024, 6, 8, 0, 0, 0); // 1 de janeiro de 2022
+const dataInicial = new Date(2024, 5, 8, 0, 0, 0); // 1 de janeiro de 2022
 
 function atualizarContador() {
     const agora = new Date();
