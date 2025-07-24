@@ -38,11 +38,12 @@
         & #msg {
             position: absolute;
             text-align: center;
-            width: 260px;
-            top: calc(50% - 95px);
+            width: 100px;
+            top: calc(50% - 35px);
             left: calc(50% - 130px);
 
-            font-size: 24px;
+            font-size: 10px;
+            color: red;
         }
     }
 }
