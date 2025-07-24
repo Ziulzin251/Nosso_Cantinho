@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "Mimi";
-    src: url("../fonts/Fresh_Fruit.otf");
-}
-
-body{
+body {
     height: 100vh;
 }
 
@@ -20,28 +15,19 @@ body{
     margin: auto;
 }
 
-h1 {
-    position: absolute;
-    text-align: center;
-    width: 400px;
-    top: calc(50% - 150px);
-    left: calc(50% - 200px);
-}
-
 img {
     margin: 0 5%;
     width: 90%;
     height: 90%;
 }
 
-#msg{
-    font-family: "Mimi";
+#msg {
     color: palevioletred;
 }
 
 @media (max-width: 450px) {
-  
-    h1{
+
+    h1 {
         position: absolute;
         text-align: center;
         width: 260px;

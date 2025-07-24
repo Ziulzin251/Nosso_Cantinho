@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cartinhas.css">
+
+    <script src="js/base/buttons.js" defer></script>
+    <script src="js/dias.js" defer></script>
+    <script src="js/cartinhas.js" defer></script>
     <script src="js/script.js" defer></script>
 
     <title>Canto Da Mimi e do Bibi</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a --index href="#">Inicio</a>
                 </li>
                 <li>
-                    <a href="html/Cartinhas.html" target="iframe">Cartinhas</a>
+                    <a --days href="#">Dias Juntos</a>
                 </li>
                 <li>
-                    <a href="html/Dias.html" target="iframe">Dias Juntos</a>
+                    <a --letter href="#">Cartinhas</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="html/Fotos.html" target="iframe">Fotos</a>
                 </li>
                 <li>
                     <a href="html/Conste.html" target="iframe">Constelacao</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
 
     <main>
-        <iframe name="iframe" src="" frameborder="0"></iframe>
+        <section id="welcome">
+            <h1>Nosso cantinho especial, feito com amor por Luiz para Noemi s2</h1>
+        </section>
+
+        <section id="days">
+            <h1 id="daysTogether">
+                <span id="year"></span>
+                <span id="month"></span>
+                <span id="day"></span>
+                <br>
+                <span id="hour"></span>
+                <span id="minute"></span>
+                <br>
+                <span id="second"></span>
+            </h1>
+        </section>
+
+        <section id="letter">
+            <div id="carta">
+                <img id="cartinha" src="imgs/Carta.png" style="opacity: 0;" alt="">
+                <h1 id="msg"></h1>
+            </div>
+        </section>
+
     </main>
 </body>
+
 </html>
