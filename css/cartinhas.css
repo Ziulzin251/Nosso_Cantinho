@@ -3,6 +3,10 @@
     src: url("../fonts/Fresh_Fruit.otf");
 }
 
+body{
+    height: 100vh;
+}
+
 #carta {
     position: relative;
     background-image: url("../imgs/Carta.png");
@@ -10,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-width: 300px;
+    min-width: 200px;
     max-width: 700px;
 
     margin: auto;
@@ -20,7 +24,7 @@ h1 {
     position: absolute;
     text-align: center;
     width: 400px;
-    top: calc(50% - 165px);
+    top: calc(50% - 150px);
     left: calc(50% - 200px);
 }
 
@@ -28,4 +32,23 @@ img {
     margin: 0 5%;
     width: 90%;
     height: 90%;
+}
+
+#msg{
+    font-family: "Mimi";
+    color: palevioletred;
+}
+
+@media (max-width: 450px) {
+  
+    h1{
+        position: absolute;
+        text-align: center;
+        width: 260px;
+        top: calc(50% - 95px);
+        left: calc(50% - 130px);
+
+        font-size: 24px;
+    }
+
 }
